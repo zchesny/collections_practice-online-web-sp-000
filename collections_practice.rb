@@ -70,9 +70,7 @@ end
 def add_s(array)
   new_arr = []
   array.each_with_index do |word, index|
-    if index != 1
-      new_arr << "#{word}s"
-    end
+    index != 1 ? new_arr << "#{word}s" : new_arr << word
   end
   new_arr
 end
