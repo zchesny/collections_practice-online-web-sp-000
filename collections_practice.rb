@@ -41,6 +41,7 @@ def swap_elements_from_to(array, index, destination_index)
   array
 end
 
+# could do better with higher order map?
 def reverse_array(array)
   reverse_arr = []
   array.each_with_index do |val, index|
