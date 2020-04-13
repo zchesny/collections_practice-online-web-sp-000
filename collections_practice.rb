@@ -49,10 +49,11 @@ def reverse_array(array)
   end
   reverse_arr
 end
-#
-# def kesha_maker(array)
-# end
-#
+
+def kesha_maker(array)
+  array.map{|str| str[2] = "$"}
+end
+
 # def find_a(array)
 # end
 #
