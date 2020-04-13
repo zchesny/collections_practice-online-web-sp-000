@@ -45,6 +45,7 @@ def reverse_array(array)
   reverse_arr = []
   array.each_with_index do |val, index|
     reverse_arr[array.size - 1 - index] = val
+  reverse_arr
 end
 #
 # def kesha_maker(array)
