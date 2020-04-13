@@ -40,12 +40,12 @@ def swap_elements_from_to(array, index, destination_index)
   array[destination_index] = temp
   array
 end
-#
-# def swap_elements_from_to(array, index, destination_index)
-# end
-#
-# def reverse_array(array)
-# end
+
+def reverse_array(array)
+  reverse_arr = []
+  array.each_with_index do |val, index|
+    reverse_arr[array.size - 1 - index] = val
+end
 #
 # def kesha_maker(array)
 # end
