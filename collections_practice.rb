@@ -66,6 +66,13 @@ def sum_array(array)
   array.each{|num| sum += num}
   sum
 end
-#
-# def add_s(array)
-# end
+
+def add_s(array)
+  new_arr = []
+  array.each_with_index do |word, index|
+    if index != 1
+      new_arr << "#{word}s"
+    end
+  end
+  new_arr
+end
