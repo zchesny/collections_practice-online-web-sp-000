@@ -53,7 +53,7 @@ end
 def kesha_maker(array)
   array.map do |str|
     str[2] = "$"
-    str 
+    str
   end
 end
 
